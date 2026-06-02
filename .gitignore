@@ -1,6 +1,7 @@
 # SQLite database — share schema.sql instead
 *.db
- 
+data/db/
+
 # Python
 __pycache__/
 *.py[cod]
