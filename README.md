@@ -25,14 +25,7 @@ git init
 
 ### Step 2 — Create the project folder structure 
 
-Run this once from the project root:
-
-```bash
-mkdir -p data/raw data/processed data/db
-mkdir -p notebooks scripts sql dashboard reports
-```
-
-Folder tree should now look like this:
+Folder tree should look like this:
 
 ```
 bluestock_mf_capstone/
@@ -120,12 +113,11 @@ curl https://api.mfapi.in/mf/125497
 
 ## Day 1 Deliverables Checklist
 
-- [ ] `scripts/data_ingestion.py` runs without errors
-- [ ] `scripts/live_nav_fetch.py` runs without errors
-- [ ] `requirements.txt` committed to repo
-- [ ] `data/raw/` contains all 10 CSVs + 6 live NAV files
-- [ ] `reports/data_quality_summary.txt` generated
-- [ ] GitHub repo has commit: *"Day 1: Data ingestion complete"*
+- [x] `scripts/data_ingestion.py` runs without errors
+- [x] `scripts/live_nav_fetch.py` runs without errors
+- [x] `requirements.txt` committed to repo
+- [x] `data/raw/` contains all 10 CSVs + 6 live NAV files
+- [x] `reports/data_quality_summary.txt` generated
 
 ---
 
