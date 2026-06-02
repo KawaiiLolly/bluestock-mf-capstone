@@ -1,0 +1,129 @@
+==================================================
+BLUESTOCK MF CAPSTONE - DAY 1 DATA INGESTION REPORT
+==================================================
+
+TOTAL DATASETS LOADED: 10
+
+--------------------------------------------------
+DATASET SUMMARY
+--------------------------------------------------
+
+File: 01_fund_master.csv
+Rows: 40
+Columns: 15
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: 02_nav_history.csv
+Rows: 46,000
+Columns: 3
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: 03_aum_by_fund_house.csv
+Rows: 90
+Columns: 5
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: 04_monthly_sip_inflows.csv
+Rows: 48
+Columns: 6
+Average Null %: 2.08%
+Duplicate Rows: 0
+
+File: 05_category_inflows.csv
+Rows: 144
+Columns: 3
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: 06_industry_folio_count.csv
+Rows: 21
+Columns: 6
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: 07_scheme_performance.csv
+Rows: 40
+Columns: 19
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: 08_investor_transactions.csv
+Rows: 32,778
+Columns: 13
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: 09_portfolio_holdings.csv
+Rows: 322
+Columns: 8
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: 10_benchmark_indices.csv
+Rows: 8,050
+Columns: 3
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+--------------------------------------------------
+FUND MASTER EXPLORATION
+--------------------------------------------------
+
+Unique Fund Houses (10)
+--------------------------------------------------
+Aditya Birla Sun Life MF
+Axis Mutual Fund
+DSP Mutual Fund
+HDFC Mutual Fund
+ICICI Prudential MF
+Kotak Mahindra MF
+Mirae Asset MF
+Nippon India MF
+SBI Mutual Fund
+UTI Mutual Fund
+
+Categories (2)
+--------------------------------------------------
+Debt
+Equity
+
+Sub-Categories (12)
+--------------------------------------------------
+ELSS
+Flexi Cap
+Gilt
+Index
+Index/ETF
+Large & Mid Cap
+Large Cap
+Liquid
+Mid Cap
+Short Duration
+Small Cap
+Value
+
+Risk Categories (5)
+--------------------------------------------------
+High
+Low
+Moderate
+Moderately High
+Very High
+
+AMFI SCHEME CODE STRUCTURE
+--------------------------------------------------
+Total Unique AMFI Codes: 40
+
+AMFI CODE VALIDATION
+--------------------------------------------------
+  01_fund_master  total codes       : 40
+  02_nav_history  total codes       : 40
+  Matched (present in both)         : 40
+  In 01_fund_master, missing in NAV : 0
+  In NAV, missing in 01_fund_master : 0
+
+  All 01_fund_master codes are present in 02_nav_history.
+
