@@ -1,0 +1,78 @@
+============================================================
+  Bluestock MF Capstone — Cleaning Report
+  Day 2
+============================================================
+============================================================
+  Bluestock MF — Data Cleaning (Day 2)
+============================================================
+
+============================================================
+  02_nav_history.csv
+============================================================
+  Loaded:  46,000 rows
+  Unparseable dates dropped: 0
+  Duplicates removed: 0
+  Invalid NAV (<=0) removed: 0
+  Saved:   46,000 rows  →  clean_nav.csv
+
+============================================================
+  08_investor_transactions.csv
+============================================================
+  Loaded:  32,778 rows
+  transaction_type before: {'SIP': 19716, 'Lumpsum': 8095, 'Redemption': 4967}
+  transaction_type after:  {'SIP': 19716, 'Lumpsum': 8095, 'Redemption': 4967}
+  Unparseable dates dropped: 19730
+  Negative/zero amounts removed: 0
+  KYC status values: {'Pending': 13048}
+  Duplicate rows removed: 0
+  Saved:   13,048 rows  →  clean_transactions.csv
+
+============================================================
+  07_scheme_performance.csv
+============================================================
+  Loaded:  40 rows
+  Negative Sharpe ratios flagged: 0
+  expense_ratio_pct out of [0.1, 2.5]: 0 — set to NaN
+  Saved:   40 rows  →  clean_performance.csv
+
+============================================================
+  01_fund_master.csv
+============================================================
+  Loaded:  40 rows
+  Saved: 40 rows  →  clean_fund_master.csv
+
+============================================================
+  03_aum_by_fund_house.csv
+============================================================
+  Loaded:  90 rows
+  Saved: 90 rows  →  clean_aum_by_fund_house.csv
+
+============================================================
+  09_portfolio_holdings.csv
+============================================================
+  Loaded:  322 rows
+  Saved: 322 rows  →  clean_portfolio_holdings.csv
+
+============================================================
+  04_monthly_sip_inflows.csv
+============================================================
+  Loaded:  48 rows
+  Saved: 36 rows  →  clean_monthly_sip_inflows.csv
+
+============================================================
+  05_category_inflows.csv
+============================================================
+  Loaded:  144 rows
+  Saved: 144 rows  →  clean_category_inflows.csv
+
+============================================================
+  06_industry_folio_count.csv
+============================================================
+  Loaded:  21 rows
+  Saved: 21 rows  →  clean_industry_folio_count.csv
+
+============================================================
+  10_benchmark_indices.csv
+============================================================
+  Loaded:  8,050 rows
+  Saved: 8,050 rows  →  clean_benchmark_indices.csv

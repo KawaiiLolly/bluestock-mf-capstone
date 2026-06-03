@@ -1,0 +1,11 @@
+scheme_name,fund_house,category,return_1yr_pct,return_3yr_pct,return_5yr_pct,sharpe_ratio
+SBI Small Cap Fund - Regular Plan - Growth,SBI Mutual Fund,Equity,2456.0,2339.0,2067.0,0.94
+SBI Small Cap Fund - Direct Plan - Growth,SBI Mutual Fund,Equity,2059.0,2314.0,2182.0,0.93
+ABSL Small Cap Fund - Regular - Growth,Aditya Birla Sun Life MF,Equity,2493.0,2238.0,2380.0,0.9
+Axis Small Cap Fund - Regular - Growth,Axis Mutual Fund,Equity,2197.0,2098.0,2262.0,0.84
+Nippon India Small Cap Fund - Regular - Growth,Nippon India MF,Equity,2130.0,2015.0,2188.0,0.81
+DSP Small Cap Fund - Regular - Growth,DSP Mutual Fund,Equity,2020.0,2008.0,2061.0,0.8
+Kotak Emerging Equity Fund - Regular - Growth,Kotak Mahindra MF,Equity,1712.0,1823.0,1775.0,0.96
+ICICI Pru Midcap Fund - Regular - Growth,ICICI Prudential MF,Equity,1402.0,1808.0,1755.0,0.95
+DSP Midcap Fund - Regular - Growth,DSP Mutual Fund,Equity,1412.0,1716.0,1900.0,0.9
+HDFC Mid-Cap Opportunities Fund - Regular - Growth,HDFC Mutual Fund,Equity,1543.0,1658.0,1769.0,0.87
