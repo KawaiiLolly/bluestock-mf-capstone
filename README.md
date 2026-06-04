@@ -33,7 +33,6 @@ Cron entry: `TZ=Asia/Kolkata 0 20 * * 1-5 python scripts/live_nav_fetch.py`
 
 ## Deliverables Checklist
 
-### Day 2
 - [x] `data/processed/` has 10 clean CSVs
 - [x] `data/db/bluestock_mf.db` exists with 11 tables
 - [x] `sql/schema.sql` defines all tables and indexes
