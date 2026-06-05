@@ -244,7 +244,7 @@ def clean_benchmarks():
     df["date"] = pd.to_datetime(df["date"])
     df["close_value"] = pd.to_numeric(df["close_value"], errors="coerce")
     df = df.drop_duplicates()
-    df.to_csv(PROC / "clean_benchmark_indicies.csv", index=False)
+    df.to_csv(PROC / "clean_benchmark_indices.csv", index=False)
     log(f"  Saved: {len(df):,} rows  →  clean_benchmark_indices.csv")
     return df
 

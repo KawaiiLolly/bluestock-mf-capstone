@@ -43,21 +43,37 @@ Cron entry: `TZ=Asia/Kolkata 0 20 * * 1-5 python scripts/live_nav_fetch.py`
 
 # Day 3 — Exploratory Data Analysis (EDA)
 
-### What it does
-
-Performs analysis on the cleaned mutual fund dataset and generates visual insights as PNG charts.
-
-
-### Output
-
-* PNG charts saved in `reports/charts/`
-* Visual insights for mutual fund trends, investor behavior, risk, returns, benchmark performance and key findings.
-
----
-
 ## Deliverables Checklist
 
 * [x] EDA completed on cleaned datasets
 * [x] Multiple charts generated and saved as PNG
 * [x] Key trends and insights identified
 * [x] Charts stored in `reports/charts/`
+
+# Day 4 - Fund Performance Analystics
+
+### What it does
+Computes all key risk/return metrices for all 40 schemes using actual NAV history.
+
+### Open the notebook
+```bash
+jupyter notebook notebooks/04_Performance_Analystics.ipynb
+```
+### Deliverables Metrics computed
+
+| Task | Formula | Output File |
+|---|---|---|
+| Daily returns | `nav_t / nav_t-1 − 1` | `returns_computed.csv` |
+| CAGR 1yr/3yr/5yr | `(NAV_end/NAV_start)^(1/n)−1` | `cagr_report.csv` |
+| Sharpe Ratio | `(Rp_ann − Rf) / (Std × √252)` | `sharpe_values.csv` |
+| Sortino Ratio | `(Rp_ann − Rf) / (Downside_Std × √252)` | `sortino_values.csv` |
+| Alpha & Beta | OLS regression vs Nifty 100 | `alpha_beta.csv` |
+| Max Drawdown | `min(NAV / cummax(NAV) − 1)` | `max_drawdown.csv` |
+| Fund Scorecard | Weighted composite 0–100 | `fund_scorecard.csv` |
+| Benchmark comparison | Normalised to 100, tracking error | `benchmark_comparison.png` |
+
+### Output locations
+```
+reports/performance/            - all CSV metric files
+reports/charts/                 - PNG charts including benchmark_comparion.png
+```

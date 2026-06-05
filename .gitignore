@@ -1,31 +1,41 @@
-# SQLite database — share schema.sql instead
 *.db
 data/db/
 
-# Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 .Python
+
 env/
 venv/
 .venv/
+
 *.egg-info/
 dist/
 build/
- 
-# Jupyter
+
 .ipynb_checkpoints/
 *.ipynb_checkpoints
- 
-# OS
-.DS_Store
-Thumbs.db
- 
-# IDE
+
 .vscode/
 .idea/
- 
-# Data (raw CSVs can be large — optional)
-# data/raw/
+
+.DS_Store
+Thumbs.db
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+*.log
+
+.env
+.env.*
+
+.streamlit/secrets.toml
+
+*.tmp
+*.temp
+
+*.swp
