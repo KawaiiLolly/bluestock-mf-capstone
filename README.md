@@ -57,7 +57,7 @@ Computes all key risk/return metrices for all 40 schemes using actual NAV histor
 
 ### Open the notebook
 ```bash
-jupyter notebook notebooks/04_Performance_Analystics.ipynb
+jupyter notebook notebooks/04_performance_analystics.ipynb
 ```
 ### Deliverables Metrics computed
 
