@@ -9,3 +9,9 @@ File,Rows,Columns,Average Null %,Duplicate Rows,High Null Columns
 08_investor_transactions.csv,32778,13,0.0,0,-
 09_portfolio_holdings.csv,322,8,0.0,0,-
 10_benchmark_indices.csv,8050,3,0.0,0,-
+nav_118632_Nippon_LargeCap_Direct.csv,3298,2,0.0,0,-
+nav_119092_Axis_Bluechip_Direct.csv,3565,2,0.0,0,-
+nav_119551_SBI_Bluechip_Direct.csv,3236,2,0.0,0,-
+nav_120503_ICICI_Bluechip_Direct.csv,3307,2,0.0,0,-
+nav_120841_Kotak_Bluechip_Direct.csv,3301,2,0.0,0,-
+nav_125497_HDFC_Top100_Direct.csv,3091,2,0.0,0,-

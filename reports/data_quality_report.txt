@@ -2,7 +2,7 @@
 BLUESTOCK MF CAPSTONE - DAY 1 DATA INGESTION REPORT
 ==================================================
 
-TOTAL DATASETS LOADED: 10
+TOTAL DATASETS LOADED: 16
 
 --------------------------------------------------
 DATASET SUMMARY
@@ -65,6 +65,42 @@ Duplicate Rows: 0
 File: 10_benchmark_indices.csv
 Rows: 8,050
 Columns: 3
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: nav_118632_Nippon_LargeCap_Direct.csv
+Rows: 3,298
+Columns: 2
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: nav_119092_Axis_Bluechip_Direct.csv
+Rows: 3,565
+Columns: 2
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: nav_119551_SBI_Bluechip_Direct.csv
+Rows: 3,236
+Columns: 2
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: nav_120503_ICICI_Bluechip_Direct.csv
+Rows: 3,307
+Columns: 2
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: nav_120841_Kotak_Bluechip_Direct.csv
+Rows: 3,301
+Columns: 2
+Average Null %: 0.00%
+Duplicate Rows: 0
+
+File: nav_125497_HDFC_Top100_Direct.csv
+Rows: 3,091
+Columns: 2
 Average Null %: 0.00%
 Duplicate Rows: 0
 
