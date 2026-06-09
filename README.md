@@ -49,7 +49,7 @@ Cron entry: `TZ=Asia/Kolkata 0 20 * * 1-5 python scripts/live_nav_fetch.py`
 * [x] Multiple charts generated and saved as PNG
 * [x] Key trends and insights identified
 * [x] Charts stored in `reports/charts/`
-
+---
 ## Day 4 - Fund Performance Analystics
 
 ### Deliverables Metrics computed
@@ -65,12 +65,12 @@ Cron entry: `TZ=Asia/Kolkata 0 20 * * 1-5 python scripts/live_nav_fetch.py`
 | Fund Scorecard | Weighted composite 0–100 | `fund_scorecard.csv` |
 | Benchmark comparison | Normalised to 100, tracking error | `benchmark_comparison.png` |
 
-
+---
 ## Day 5 - Dashboard
 
 As an alternative to Power Bi, a fully functional and interactive dashboard has been developedusing Steamlit and connected to the 
 cleaned CSV datasets and SQLite database. The application reproduces the same four analytical pages originally planned for Power BI while offering a lightweight, browser-based experience that is easy to run and share.
-
+---
 ## Day 6 - Advanced Analytics + Risk Metrics
 
 ```bash
@@ -101,3 +101,4 @@ python scripts/recommender.py --all     # for all three appetites
 | Low | Low |
 | Moderate | Moderate, Moderately High |
 | High | High, Very High |
+---
