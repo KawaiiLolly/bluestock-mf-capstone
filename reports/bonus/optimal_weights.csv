@@ -1,0 +1,4 @@
+portfolio,ann_return_pct,ann_vol_pct,sharpe_ratio,weight_Axis_Bluechip_Fund,weight_HDFC_Top_100,weight_HDFC_Short_Term,weight_ABSL_Liquid_Fund
+msr,6.9295,13.9507,0.0308,1.0,0.0,0.0,0.0
+minvar,6.0594,0.5015,-0.8786,0.0021,0.0021,0.0133,0.9825
+ew,5.2175,5.2181,-0.2458,0.25,0.25,0.25,0.25
