@@ -214,8 +214,8 @@ python scripts/email_report_generator.py                   # Need setups in .env
 | ------------------------- | ------------------------------- |
 | Schemes analyzed          | 40                              |
 | NAV data range            | Jan 2022 – Dec 2025             |
-| Total NAV rows            | 73,080                          |
-| Investor transactions     | 31,238                          |
+| Total NAV rows            | 19,798                          |
+| Investor transactions     | 32,778                          |
 | Python scripts            | 15                              |
 | Jupyter notebooks         | 6                               |
 | Charts generated          | 30 PNG + 3 HTML                 |
