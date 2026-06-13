@@ -559,7 +559,7 @@ elif "SIP & Market Trends" in page:
     with col3:
         st.subheader("Folio Count Growth")
         fol_f = folio[(folio["month"].dt.year >= year_range[0]) &
-                      (folio["month"].dt.year <= yEear_range[1])]
+                      (folio["month"].dt.year <= year_range[1])]
         fig = px.area(fol_f, x="month", y="total_folios_crore",
                       color_discrete_sequence=[ACCENT],
                       labels={"total_folios_crore":"Folios (Crore)","month":"Month"})
